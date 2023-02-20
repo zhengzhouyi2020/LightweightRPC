@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  * @Date:2023/2/13
  * @Description: Annotation for RPC service Autowired
  */
-@Target({ElementType.TYPE})
+@Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Component
 public @interface RpcAutowired {
