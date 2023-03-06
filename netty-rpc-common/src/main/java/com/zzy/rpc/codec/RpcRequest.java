@@ -6,7 +6,7 @@ import java.io.Serializable;
 /**
  * @Author:zzy
  * @Date:2023/2/13
- * @Description:
+ * @Description:  连接 RPC 服务器
  */
 
 public class RpcRequest implements Serializable {

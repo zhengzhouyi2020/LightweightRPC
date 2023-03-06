@@ -123,6 +123,7 @@ public class ConnectionManager {
         threadPoolExecutor.submit(new Runnable() {
             @Override
             public void run() {
+                // 创建并初始化 Netty 客户端 Bootstrap 对象
                 Bootstrap b = new Bootstrap();
                 b.group(eventLoopGroup)
                         .channel(NioSocketChannel.class)

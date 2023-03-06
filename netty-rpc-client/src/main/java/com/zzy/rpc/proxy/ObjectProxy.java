@@ -61,7 +61,7 @@ public class ObjectProxy<T, P> implements InvocationHandler, RpcService<T, P, Se
                 throw new IllegalStateException(String.valueOf(method));
             }
         }
-
+        // 创建 RPC 请求对象并设置请求属性
         RpcRequest request = new RpcRequest();
         request.setRequestId(UUID.randomUUID().toString());
         request.setClassName(method.getDeclaringClass().getName());

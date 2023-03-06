@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * @Author:zzy
  * @Date:2023/2/13
- * @Description: 服务发现
+ * @Description: 基于 ZooKeeper 的服务注册接口实现
  */
 public class ServiceDiscovery {
     private static final Logger logger = LoggerFactory.getLogger(ServiceDiscovery.class);

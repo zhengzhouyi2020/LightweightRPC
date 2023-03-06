@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @Author:zzy
  * @Date:2023/2/13
- * @Description: Serialization Util（Based on Protostuff）
+ * @Description: Serialization Util（Based on Protostuff） 序列化工具类
  */
 public class SerializationUtil {
     private static Map<Class<?>, Schema<?>> cachedSchema = new ConcurrentHashMap<>();

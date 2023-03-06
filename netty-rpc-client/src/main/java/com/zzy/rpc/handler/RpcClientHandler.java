@@ -66,7 +66,7 @@ public class RpcClientHandler extends SimpleChannelInboundHandler<RpcResponse> {
         RpcFuture rpcFuture = new RpcFuture(request);
         pendingRPC.put(request.getRequestId(), rpcFuture);
         try {
-            ChannelFuture channelFuture = channel.writeAndFlush(request).sync();
+            ChannelFuture channelFuture = channel.writeAndFlush(request).sync();  // 发送请求
             if (!channelFuture.isSuccess()) {
                 logger.error("Send request {} error", request.getRequestId());
             }

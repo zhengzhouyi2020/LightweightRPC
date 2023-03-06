@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * @Author:zzy
  * @Date:2023/2/13
- * @Description:
+ * @Description: 封装 RPC 响应
  */
 public class RpcResponse implements Serializable {
 
