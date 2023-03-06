@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--scan service package-->
-    <context:component-scan base-package="com.app.test.service"/>
+    <context:component-scan base-package="com.zzy.netty.test.service"/>
 
     <context:property-placeholder location="classpath:rpc.properties"/>
 
@@ -16,7 +16,7 @@
 <!--        <constructor-arg name="registryAddress" value="${registry.address}"/>-->
 <!--    </bean>-->
 
-    <bean id="rpcServer" class="com.netty.rpc.server.RpcServer">
+    <bean id="rpcServer" class="com.zzy.netty.rpc.server.RpcServer">
         <constructor-arg name="serverAddress" value="${server.address}"/>
         <constructor-arg name="registryAddress" value="${registry.address}"/>
     </bean>
