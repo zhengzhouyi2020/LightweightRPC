@@ -89,18 +89,18 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
             logger.debug(parameters[i].toString());
         }
 
-        // JDK reflect
+        // JDK reflect JDK方式的反射
 //        Method method = serviceClass.getMethod(methodName, parameterTypes);
 //        method.setAccessible(true);
 //        return method.invoke(serviceBean, parameters);
 
-        // Cglib reflect
+        // Cglib reflect CGLib的反射
         FastClass serviceFastClass = FastClass.create(serviceClass);
 //        FastMethod serviceFastMethod = serviceFastClass.getMethod(methodName, parameterTypes);
 //        return serviceFastMethod.invoke(serviceBean, parameters);
         // for higher-performance
         int methodIndex = serviceFastClass.getIndex(methodName, parameterTypes);
-        return serviceFastClass.invoke(methodIndex, serviceBean, parameters);
+        return serviceFastClass.invoke(methodIndex, serviceBean, parameters); // 通过反射的方式调用方法
     }
 
     @Override

@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class RpcAsyncTest {
     public static void main(String[] args) throws InterruptedException {
-        final RpcClient rpcClient = new RpcClient("10.217.59.164:2181");
+        final RpcClient rpcClient = new RpcClient("127.0.0.1:2181");
 
         int threadNum = 1;
         final int requestNum = 100;

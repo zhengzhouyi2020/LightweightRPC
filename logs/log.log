@@ -1,4 +1,4 @@
-2023-03-05 18:49:08 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 13:55:16 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -19,7 +19,7 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-2023-03-05 18:49:54 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 14:28:05 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -41,7 +41,7 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-2023-03-05 18:50:20 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 14:39:43 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -63,7 +63,7 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-2023-03-05 18:52:16 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 14:40:25 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -85,7 +85,51 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-2023-03-05 18:54:52 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 14:40:49 ERROR NettyServer:75 - Rpc server remoting server error
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:985)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 14:41:27 ERROR NettyServer:75 - Rpc server remoting server error
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:985)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 14:41:29 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -106,7 +150,73 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-2023-03-05 19:00:20 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 14:45:11 ERROR NettyServer:75 - Rpc server remoting server error
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:985)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 14:49:14 ERROR NettyServer:75 - Rpc server remoting server error
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:985)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 14:50:01 ERROR NettyServer:75 - Rpc server remoting server error
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:132)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:985)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:344)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1044)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 15:25:32 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -127,7 +237,7 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
-2023-03-05 19:01:43 ERROR NettyServer:75 - Rpc server remoting server error
+2023-04-02 15:26:17 ERROR NettyServer:75 - Rpc server remoting server error
 java.net.BindException: Address already in use: bind
 	at sun.nio.ch.Net.bind0(Native Method)
 	at sun.nio.ch.Net.bind(Net.java:461)
@@ -148,3 +258,69 @@ java.net.BindException: Address already in use: bind
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 15:28:47 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:28:52 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:28:59 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:04 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:11 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:16 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:23 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:29 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:35 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:41 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:29:48 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:58:23 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:00 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:05 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:12 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:17 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:23 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:39 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:44 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 15:59:57 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 16:00:09 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 16:00:14 ERROR RpcDecoder:45 - Decode error: java.lang.RuntimeException: com.esotericsoftware.kryo.KryoException: Buffer underflow.
+2023-04-02 16:11:42 ERROR CuratorFrameworkImpl:566 - Background exception was not retry-able or retry gave up
+java.lang.IllegalStateException: Client is not started
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:115)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.performBackgroundOperation(GetChildrenBuilderImpl.java:186)
+	at org.apache.curator.framework.imps.OperationAndData.callPerformBackgroundOperation(OperationAndData.java:72)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:831)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:507)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:203)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:40)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.refresh(PathChildrenCache.java:508)
+	at org.apache.curator.framework.recipes.cache.RefreshOperation.invoke(RefreshOperation.java:35)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache$9.run(PathChildrenCache.java:773)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 16:11:43 ERROR ConnectionManager:143 - Can not connect to remote server, remote peer = /127.0.0.1:8000
+2023-04-02 16:13:25 ERROR CuratorFrameworkImpl:566 - Background exception was not retry-able or retry gave up
+java.lang.IllegalStateException: Client is not started
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.apache.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:115)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.performBackgroundOperation(GetChildrenBuilderImpl.java:186)
+	at org.apache.curator.framework.imps.OperationAndData.callPerformBackgroundOperation(OperationAndData.java:72)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:831)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:507)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:203)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:40)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache.refresh(PathChildrenCache.java:508)
+	at org.apache.curator.framework.recipes.cache.RefreshOperation.invoke(RefreshOperation.java:35)
+	at org.apache.curator.framework.recipes.cache.PathChildrenCache$9.run(PathChildrenCache.java:773)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2023-04-02 16:13:26 ERROR ConnectionManager:143 - Can not connect to remote server, remote peer = /127.0.0.1:8000
